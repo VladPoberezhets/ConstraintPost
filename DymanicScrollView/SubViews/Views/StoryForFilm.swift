@@ -38,6 +38,8 @@ class StoryForFilm:UIView{
         storyView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         
         storyView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        storyView.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        storyView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         
         
         

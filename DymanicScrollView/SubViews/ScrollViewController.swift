@@ -13,7 +13,7 @@ class ScrollViewController: UIViewController {
     
     private let mainView:MainView = {
         let mainView = MainView()
-        mainView.backgroundColor = .brown
+//        mainView.backgroundColor = .brown
         return mainView
     }()
     
@@ -33,7 +33,7 @@ class ScrollViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.isScrollEnabled = true
-        scrollView.backgroundColor = .green
+        scrollView.backgroundColor = .white
      
 
         scrollView.showsVerticalScrollIndicator = true
@@ -64,7 +64,8 @@ class ScrollViewController: UIViewController {
         mainView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor).isActive = true
         mainView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor).isActive = true
         mainView.widthAnchor.constraint(equalTo: scrollView.widthAnchor).isActive = true
-
+//    
+//        mainView.heightAnchor.constraint(equalTo: scrollView.heightAnchor).isActive = true
         
     }
     

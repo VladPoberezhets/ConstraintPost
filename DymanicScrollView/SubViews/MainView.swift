@@ -67,7 +67,7 @@ class MainView:UIView{
         imagePost.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
     
         
-        titleFilm.topAnchor.constraint(equalTo: imagePost.bottomAnchor, constant: 50).isActive = true
+        titleFilm.topAnchor.constraint(equalTo: imagePost.bottomAnchor, constant: 10).isActive = true
         titleFilm.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
         titleFilm.trailingAnchor.constraint(equalTo: trailingAnchor,constant: -20).isActive = true
 
@@ -83,10 +83,9 @@ class MainView:UIView{
         directorInfo.topAnchor.constraint(equalTo: timeInfo.bottomAnchor, constant: 60).isActive = true
         directorInfo.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         directorInfo.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-        
-        
-        
-        storyForFilm.topAnchor.constraint(equalTo: directorInfo.bottomAnchor, constant: 60).isActive = true
+
+              
+        storyForFilm.topAnchor.constraint(equalTo: directorInfo.bottomAnchor).isActive = true
         storyForFilm.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         storyForFilm.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
         storyForFilm.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true

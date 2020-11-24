@@ -30,7 +30,7 @@ class ImagePost: UIView {
     
     func createLayoutImagePost(){
         imageView.image = UIImage(named:"film")
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleToFill
     }
     
     required init?(coder: NSCoder) {

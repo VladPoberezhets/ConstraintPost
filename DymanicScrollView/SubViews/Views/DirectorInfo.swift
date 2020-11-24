@@ -37,6 +37,8 @@ class DirectorInfo:UIView{
         directorName.bottomAnchor.constraint(equalTo: directorView.bottomAnchor, constant: -10).isActive = true
 
         directorView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        directorView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
+        directorView.topAnchor.constraint(equalTo: topAnchor).isActive = true
     }
     
     func createLayoutDirector(){
